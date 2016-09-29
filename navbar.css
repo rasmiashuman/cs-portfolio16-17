@@ -1,0 +1,25 @@
+#navbar {
+    text-align:center;
+}
+
+#navbar li{
+    display:inline-block;
+    border: 3px black;
+    padding: 10px;
+    background-color:pink;
+}
+
+#navbar a {
+    color:black;
+}
+#funfacts {
+    border:3px solid black;
+    padding-left:18px;
+    display:inline-block;
+    display:table; margin:0 auto;
+}
+#about{
+    margin-left:15%;
+    margin-right:15%;
+    text-indent:40px;
+}
