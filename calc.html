@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+</head>
+<body>
+    <style>
+    #navbar {
+    text-align:center;
+}
+body{
+    background-color:Gainsboro;
+}
+#navbar li{
+    display:inline-block;
+    border: 3px black;
+    padding: 10px;
+    background-color:pink;
+} 
+
+#navbar a {
+    color:black;
+}
+#funfacts {
+    border:3px solid black;
+    padding-left:18px;
+    display:inline-block;
+    display:table; margin:0 auto;
+}
+#about{
+    margin-left:15%;
+    margin-right:15%;
+    text-indent:40px;
+}
+</style>
+<ul id="navbar">
+        <li><a href="index.html"> About Me </a></li>
+        <li><a href="hardware.html"> Hardware </a></li>
+        <li><a href="calc.html"> Calculator </a></li>
+        <li><a href="todo.html"> Todo List </a></li>
+        <li><a href="vind.html"> Vindinuim </a></li>
+        <li><a href="bigproject.html"> Big Project </a></li> 
+        <li><a href="Howtopage.html"> Big Project </a></li>
+    </ul>
+    <input type=text name="input1" style=width:150px; id=input1 />
+    <select id=dropbox>
+        <option value="-">-</option>
+        <option value= "+">+</option>
+        <option value= "/">/</option>
+        <option value= "*">x</option>
+    </select>
+    <input type= text name="input2" style=width:150px; id=input2 />
+        <input type=button value="calculate" id="calculate"/>
+    <h2> The answer is <span id= "answer"></span></h2>
+    <script type="text/javascript" src= "calc.js"> </script>
+</body>
+</html>
