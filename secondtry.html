@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+</head>
+
+<body>
+    <style>
+        #navbar {
+            text-align: center;
+        }
+        
+        body {
+            background-color: Gainsboro;
+        }
+        
+        #navbar li {
+            display: inline-block;
+            border: 3px black;
+            padding: 10px;
+            background-color: pink;
+        }
+        
+        #navbar a {
+            color: black;
+        }
+        
+        #funfacts {
+            border: 3px solid black;
+            padding-left: 18px;
+            display: inline-block;
+            display: table;
+            margin: 0 auto;
+        }
+        
+        #about {
+            margin-left: 15%;
+            margin-right: 15%;
+            text-indent: 40px;
+        }
+        
+        #mainTitle {
+            text-align: center;
+        }
+        
+        #form {
+            text-align: center;
+        }
+    </style>
+
+    <!--This is the nav bar-->
+    <ul id="navbar">
+        <li><a href="index.html"> About Me </a></li>
+        <li><a href="hardware.html"> Hardware </a></li>
+        <li><a href="calc.html"> Calculator </a></li>
+        <li><a href="todo.html"> Todo List </a></li>
+        <li><a href="vind.html"> Vindinuim </a></li>
+        <li><a href="bigproject.html"> Big Project </a></li>
+        <li><a href="Howtopage.html"> How to Page </a></li>
+    </ul>
+    <!--This is the end of the nav bar-->
+
+    <h2 id="mainTitle">To-Do List</h2>
+   
+    <form id="form">
+    <!--This shows that the type of input put into the box needs to be text as opposed to anything else -->
+        <input id="input" type="text" placeholder="Enter your list items:">
+    
+        <select id="dropdown">
+          <option value = "green"> Green </option>
+          <option value = "pink"> Pink </option>
+          <option value = "black"> Black </option>
+          
+         </select>
+        <input type="button" value="Submit" id="newItem">
+        <input type="button" value="Clear all" id="clearButton">
+    </form>
+    <div><span id="toDo"></span></div>
+    
+    <script src="secondtry.js"></script>
+    
+</body>
+</html>
+    
+    
